@@ -1,13 +1,13 @@
-import './navbar.css';
-import { Link } from 'react-router-dom'
+import styles from './navbar.css';
+import { Link } from 'react-router-dom';
 
 function Navbar(){
   return(
-    <header>
-      <Link className="home" to="/"></Link>
-      <Link className="exercises" to="/exercises"></Link>
-      <Link className="profil" to="/profil"></Link>
-    </header>
+    <footer className= {styles.navbar}>
+      <Link className="home" to="/"> Home </Link>
+      <Link className="exercises" to="/exercises"> Exercises </Link>
+      <Link className="profil" to="/profil"> Profil </Link>
+    </footer>
   )
 }
 
