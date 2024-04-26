@@ -1,4 +1,4 @@
-//import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/navbar';
 import DashboardImage from './image/Dashboard_img.svg';
 import './index.css';
 
@@ -24,7 +24,7 @@ function App() {
           <h5> 26 Min - Beweglichkeit </h5>
 
         </div>
-      {/*<Navbar/>*/}
+      <Navbar/>
     </>
   );
 }

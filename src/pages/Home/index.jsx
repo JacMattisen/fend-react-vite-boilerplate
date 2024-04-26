@@ -6,18 +6,18 @@ const index = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/home">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/exercises">Exercises</Link>
           </li>
         </ul>
       </nav>
 
-      <Route path="/" exact component={App} />
-      <Route path="/about" component={About} />
+      <Route path="/home" exact component={App} />
+      <Route path="/exercises" component={About} />
     </div>
   )
 }
 
-export default index
+export default index;
