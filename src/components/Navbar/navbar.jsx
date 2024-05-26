@@ -7,9 +7,11 @@ import { Link } from 'react-router-dom';
 function Navbar(){
   return(
     <footer className={styles.navbar}>
-      <Link className="home" to="/"> <img src={home} alt="" /> </Link>
-      <Link className="exercises" to="/exercises"> <img src={exercises} alt="" /> </Link>
-      <Link className="profil" to="/profil"> <img src={profil} alt="" /> </Link>
+      {/* <div className={styles.linkContainer}> */}
+      <Link className="home" to="/"> <img src={home} alt="logo-home" /> </Link>
+      <Link className="exercises" to="/exercises"> <img src={exercises} alt="logo-exercises" /> </Link>
+      <Link className="profil" to="/profil"> <img src={profil} alt="logo-profil" /> </Link>
+      {/* </div> */}
     </footer>
   )
 }
